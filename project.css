@@ -6,9 +6,10 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: "Nunito",Helvetica,Arial,sans-serif;
 }
 .header {
-    height: 148px;
+    height: 168px;
     width: 100%;
     opacity: auto;
     position: relative;
@@ -103,7 +104,7 @@
     height: 16px;
 }
 .formsearch-form {
-    width: 100%;
+    width: 700px;
     display: flex;
     position: relative;
     box-shadow: rgb(98 98 98 / 50%) 0px 1px 2px 0px;
@@ -142,11 +143,11 @@
     position: relative;
     z-index: 1;
 }
-.style___StyledHeaderKeyWords {
+.style__StyledHeaderKeyWords {
     margin-left: 248px;
     height: 32px;
 }
-.style___StyledHeaderKeyWords a {
+.style__StyledHeaderKeyWords a {
     font-size: 11px;
     font-weight: normal;
     font-stretch: normal;
@@ -155,4 +156,382 @@
     letter-spacing: normal;
     color: white;
     margin-right: 12px;
+}
+.menu {
+    margin: 0 0 0 0;
+    height: 50px;
+    background-color: #284664;
+    position: relative;
+}
+.menu .main-menu {
+    margin: 0 -10px;
+    padding: 0;
+}
+.menu .main-menu>li {
+    display: inline-block;
+    padding: 0 0 0 0;
+    margin: 0 5px 0 0;
+    float: left
+}
+.menu .main-menu>li>a {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    line-height: 50px;
+    font-weight: 800;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+    padding: 0 10px;
+    position: relative;
+    line-height: 50px;
+    height: 50px;
+}
+.menu .main-menu__arrow {
+    display: inline-block;
+    margin: 21px 0 0 2px;
+    background: url(https://ieltsonlinetests.com/themes/iot/images/xicon_arrowus_down.png.pagespeed.ic.yxc3DL2Pjp.webp) no-repeat center center;
+    width: 14px;
+    height: 8px;
+}
+.menu .main-menu .sub-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: #284664;
+    visibility: hidden;
+    z-index: 9999;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+    opacity: 0;
+    font-family: "Nunito",Helvetica,Arial,sans-serif;
+    padding: 0 0;
+    margin-top: 10px;
+    box-shadow: 4px 5px 5px 0 rgb(0 0 0 / 30%);
+    background-color: #536b83;
+    top: 100%;
+    pointer-events: none
+}
+.menu .main-menu .sub-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.menu .main-menu .sub-menu li {
+    margin: 0 30px 0 0;
+    display: inline-block;
+    padding: 0;
+    float: none;
+}
+.menu .main-menu .sub-menu li:last-child {
+    border: none;
+}
+.menu .main-menu>li>a {
+    font-size: 13px;
+}
+.menu .main-menu .sub-menu li a {
+    display: block;
+    line-height: 20px;
+    text-align: left;
+    text-transform: none;
+    padding: 0 5px!important;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+    color: #7e90a2;
+    letter-spacing: 1px;
+    float: none;
+    font-weight: 800;
+}
+.menu .badge-notify {
+    position: relative;
+    right: -7px;
+    top: -11px;
+    font-size: 9px;
+    font-weight: 800;
+    font-family: "Nunito",Helvetica,Arial,sans-serif;
+    width: 40px;
+    height: 15px;
+    line-height: 16px;
+    border-radius: 8px;
+    background-color: #faaa5a;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #284664;
+    margin: 0;
+    padding: 0;
+}
+.menu .main-menu>li.-nav-link {
+    float: right;
+    margin-right: 0;
+}
+.home-hero {
+    position: relative;
+    text-align: center;
+    background-color: #284664;
+    background-image: url(https://ieltsonlinetests.com/themes/iot/images/hero-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 550px;
+}
+.home-hero>.container {
+    position: relative;
+    z-index: 2;
+}
+.home-hero__wrap {
+    padding: 58px 0 105px;
+}
+.clearfix {
+    display: block;
+    clear: both;
+}
+.home-hero__col-left {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.animated.slow1_6s {
+    -webkit-animation-duration: 1.6s;
+    animation-duration: 1.6s;
+}
+.animated.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.home-hero__title {
+    font-size: 46px;
+    font-weight: 300;
+    color: #e8e8e8;
+    margin: 0 0 21px;
+}
+
+.home-hero__title strong {
+    font-weight: bold;
+    display: block;
+}
+.home-hero__caption {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #32b4c8;
+    margin: 0 0 27px;
+}
+.home-hero__caption strong {
+    font-weight: 800;
+    color: #e8e8e8;
+}
+.home-hero__more-info {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.67;
+    letter-spacing: .23px;
+    color: #f3f3f3;
+    margin-bottom: 29px;
+}
+.home-hero__students-group {
+    margin-right: 10px;
+    max-width: 41px;
+}
+.animated.slow1_8s {
+    -webkit-animation-duration: 1.8s;
+    animation-duration: 1.8s;
+}
+.home-hero .home-hero__button {
+    width: 179px;
+    height: 58px;
+    line-height: 58px;
+    border-radius: 28.5px;
+    background-color: #faaa5a;
+    font-size: 16px;
+    letter-spacing: .44px;
+    color: #284664;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+}
+.iot-bt, .iot-btgr, .iot-btor, .iot-btc, .test-bt, .explain-bt {
+    height: 48px;
+    line-height: 48px;
+    padding: 0 16px;
+    border-radius: 4px;
+    background-color: #284664;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    color: #fff;
+    text-align: center;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+.home-hero__col-right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.home-hero .animation-box {
+    position: relative;
+    height: 100%;
+}
+
+.home-hero .animation-box__person {
+    top: 9.8%;
+}
+.home-hero .animation-box__person {
+    position: absolute;
+    top: 6%;
+    left: 39%;
+    -webkit-animation-name: movePerson;
+    animation-name: movePerson;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.home-hero .animation-box__arrow.-arrow-1 {
+    top: 44.1%;
+    left: 28.1%;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.home-hero .animation-box__arrow {
+    position: absolute;
+    top: 6%;
+    left: 39%;
+    -webkit-animation-name: moveArrow;
+    animation-name: moveArrow;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+.home-hero .animation-box__arrow.-arrow-2 {
+    top: 65.6%;
+    left: 10.9%;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    z-index: 8;
+}
+.home-hero .arrowMoveRepeat1 {
+    -webkit-animation: arrowMoveDistance 6s infinite linear;
+    animation: arrowMoveDistance 6s infinite linear;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.home-hero .animation-box__arrow.-arrow-3 {
+    top: 60.5%;
+    left: 59.1%;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.home-hero .arrowMoveRepeat2 {
+    -webkit-animation: arrowMoveDistance15 30s infinite linear;
+    animation: arrowMoveDistance15 30s infinite linear;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.clearfix {
+    display: block;
+    clear: both;
+}
+.home-page .illegal-classses {
+    background: #f7f7f7;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.home-page .illegal-classses h2 {
+    margin: 65px 0 11px;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.35;
+    letter-spacing: .3px;
+    color: #284664;
+    position: relative;
+    display: inline-block;
+}
+.home-page .illegal-classses h2 span {
+    position: absolute;
+    right: -38px;
+    top: -6px;
+    font-size: 9px;
+    font-weight: 800;
+    font-family: "Nunito",Helvetica,Arial,sans-serif;
+    width: 40px;
+    height: 15px;
+    line-height: 16px;
+    border-radius: 8px;
+    background-color: #faaa5a;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+.home-page .caption {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: .2px;
+    color: #284664;
+    margin-bottom: 54px;
+}
+.home-page .classes-wrap {
+    margin-left: -11px;
+    margin-right: -11px;
+}
+.exarcerbate {
+    display: block;
+    clear: both;
+}
+.illegal-classses .classes-wrap .initial-classes {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.illegal-classses .class-item.-speaking {
+    border: 2px solid #c76478;
 }
