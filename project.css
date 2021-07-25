@@ -1030,4 +1030,233 @@ small, .small {
   to {opacity: 1}
 }
 
+.section {
+    padding: 60px 0;
+}
+.section-caption {
+    color: #284664;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .containerTab {
+    padding: 20px;
+    color: white;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .section-say {
+    background-color: #f3f3f3;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+.section {
+    padding: 60px 0;
+}
+.section-caption {
+    color: #284664;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.odds {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  /* Clear floats after containers */
+  .odds::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .odds img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .odds span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  @media (max-width: 500px) {
+    .odds {
+      text-align: center;
+    }
+  
+    .odds img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
+.section-contact {
+    background-color: #f7f7f7;
+}
+.contact-box {
+    max-width: 350px;
+    margin: 0 auto 40px auto;
+}
+.contact-field {
+    margin: 0 0 10px 0;
+}
+.contact-field select {
+    border: 1px solid #284664;
+    width: 100%;
+    padding: 0 0 0 10px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+input[type="text"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.contact-field input {
+    border: 1px solid #284664;
+    width: 100%;
+    padding: 0 10px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.contact-field textarea {
+    border: 1px solid #284664;
+    width: 100%;
+    padding: 8px 10px;
+    height: 170px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.contact-field button {
+    height: 50px;
+    line-height: 50px;
+    border-radius: 3px;
+    width: 100%;
+    display: block;
+    background-color: #284664;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+   
+}
+.preload {
+    position: relative;
+    top: -50px;
+    left: 239px;
+    display: none;
+}
+.footer {
+    margin: 0;
+    position: relative;
+    background-color: #284664;
+}
+.footer-content {
+    padding: 40px 0 20px 0;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.visually-hidden {
+    position: absolute!important;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    width: 1px;
+    height: 1px;
+    word-wrap: normal;
+}
+.footer-content .footer-menu {
+    list-style: none;
+    padding: 0;
+}
+.footer-content .footer-menu li {
+    margin: 0 0 13px 0;
+}
+.footer-content .footer-menu li a {
+    font-weight: 800;
+    color: #7e90a2;
+}
+.convertible-select.currency- {
+    margin-top: 25px;
+}
+.footer .convertible-select {
+    width: 160px!important;
+    display: block;
+    margin-bottom: 10px;
+}
+.convertible-select:not(.input-group-btn), .bootstrap-select[class*=col-] {
+    float: none;
+    display: inline-block;
+    margin-left: 0;
+}
+.convertible-select>select {
+    position: absolute!important;
+    bottom: 0;
+    left: 50%;
+    display: block!important;
+    width: .5px!important;
+    height: 100%!important;
+    padding: 0!important;
+    opacity: 0!important;
+    border: none;
+}
+.dropup, .dropdown {
+    position: relative;
+}
+
 
