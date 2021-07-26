@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Nunito",Helvetica,Arial,sans-serif;
+}
+.header {
+    height: 168px;
+    width: 100%;
+    opacity: auto;
+    position: relative;
+    background: rgb(1, 127, 255);
+    z-index: 999;
+}
+.container {
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.middle-wrap {
+    display: flex;
+    padding: 18px 0px 8px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.middle-leftcontainer {
+    display: flex;
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.header .logo-menu {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 248px;
+    flex-shrink: 0;
+    padding: 0px 16px 0px 0px;
+}
+.header .logo-menu img {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    position: relative;
+    padding-left: 10px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex: 1 1 0%;
+}
+.style-wrapper {
+    cursor: pointer;
+    display: flex;
+    align-self: stretch;
+}
+.style-wrapper .menu-button {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    min-height: 44px;
+}
+.style-wrapper .menu-button .hamburger-menu {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+.style-wrapper .menu-button .wrap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+}
+.style-wrapper .menu-button .wrap >span {
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+}
+.style-wrapper .menu-button .wrap .text-icon {
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    display: flex;
+    align-items: flex-end;
+}
+.style-wrapper .menu-button .wrap .text-icon >img {
+    position: relative;
+    top: -1px;
+    width: 16px;
+    height: 16px;
+}
+.formsearch-form {
+    width: 700px;
+    display: flex;
+    position: relative;
+    box-shadow: rgb(98 98 98 / 50%) 0px 1px 2px 0px;
+}
+.formsearch-input {
+    border: 0px;
+    padding: 0px 12px;
+    font-size: 13px;
+    border-radius: 2px 0px 0px 2px;
+    flex: 1 1 0%;
+    outline: none;
+}
+.formsearch-button {
+    cursor: pointer;
+    border: 0px;
+    width: 120px;
+    background: rgb(13, 92, 182);
+    height: 40px;
+    border-radius: 0px 2px 2px 0px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.formsearch-button .icon-search {
+    width: 20px;
+    height: 20px;
+    margin: 0px 8px 0px 0px;
+}
+.Bottom-Root {
+    position: relative;
+    z-index: 1;
+}
+.style__StyledHeaderKeyWords {
+    margin-left: 248px;
+    height: 32px;
+}
+.style__StyledHeaderKeyWords a {
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: white;
+    margin-right: 12px;
+}
+.menu {
+    margin: 0 0 0 0;
+    height: 50px;
+    background-color: #284664;
+    position: relative;
+}
+.menu .main-menu {
+    margin: 0 -10px;
+    padding: 0;
+}
+.menu .main-menu>li {
+    display: inline-block;
+    padding: 0 0 0 0;
+    margin: 0 5px 0 0;
+    float: left
+}
+.menu .main-menu>li>a {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    line-height: 50px;
+    font-weight: 800;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+    padding: 0 10px;
+    position: relative;
+    line-height: 50px;
+    height: 50px;
+}
+.menu .main-menu__arrow {
+    display: inline-block;
+    margin: 21px 0 0 2px;
+    background: url(https://ieltsonlinetests.com/themes/iot/images/xicon_arrowus_down.png.pagespeed.ic.yxc3DL2Pjp.webp) no-repeat center center;
+    width: 14px;
+    height: 8px;
+}
+.menu .main-menu .sub-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: #284664;
+    visibility: hidden;
+    z-index: 9999;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+    opacity: 0;
+    font-family: "Nunito",Helvetica,Arial,sans-serif;
+    padding: 0 0;
+    margin-top: 10px;
+    box-shadow: 4px 5px 5px 0 rgb(0 0 0 / 30%);
+    background-color: #536b83;
+    top: 100%;
+    pointer-events: none
+}
+.menu .main-menu .sub-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.menu .main-menu .sub-menu li {
+    margin: 0 30px 0 0;
+    display: inline-block;
+    padding: 0;
+    float: none;
+}
+.menu .main-menu .sub-menu li:last-child {
+    border: none;
+}
+.menu .main-menu>li>a {
+    font-size: 13px;
+}
+.menu .main-menu .sub-menu li a {
+    display: block;
+    line-height: 20px;
+    text-align: left;
+    text-transform: none;
+    padding: 0 5px!important;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+    color: #7e90a2;
+    letter-spacing: 1px;
+    float: none;
+    font-weight: 800;
+}
+.menu .badge-notify {
+    position: relative;
+    right: -7px;
+    top: -11px;
+    font-size: 9px;
+    font-weight: 800;
+    font-family: "Nunito",Helvetica,Arial,sans-serif;
+    width: 40px;
+    height: 15px;
+    line-height: 16px;
+    border-radius: 8px;
+    background-color: #faaa5a;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #284664;
+    margin: 0;
+    padding: 0;
+}
+.menu .main-menu>li.-nav-link {
+    float: right;
+    margin-right: 0;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.exam-library .container .row {
+    display: flex;
+}
+.cols {
+    padding: 0 390px 0 0;
+    position: relative;
+}
+.cols .colleft {
+    min-height: 1500px;
+}
+.cols .colleft {
+    width: 100%;
+    min-height: 600px;
+    padding-bottom: 30px;
+}
+.colleft {
+    padding-bottom: 15px;
+}
+.col-md-8 {
+    width: 66.66666667%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.sitemap {
+    padding: 15px 0 6px;
+    text-align: left;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.sitemap a {
+    display: inline-block;
+    font-size: 13px;
+    color: #787878;
+}
+.sitemap span {
+    display: inline-block;
+    font-size: 13px;
+    color: #787878;
+    padding: 0 4px;
+}
+.hidden {
+    display: none!important;
+}
+.exam-library .tests-wrapper {
+    position: relative;
+}
+.exam-library .lesson-nav {
+    margin-top: 37px;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.exam-library .lesson-nav li {
+    float: left;
+    margin-right: 47px;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+.exam-library .lesson-nav li.active a.all-test {
+    background-image: url(https://ieltsonlinetests.com/themes/iot/images/icon-alltest-active.svg);
+}
+.exam-library .lesson-nav li.active a {
+    font-weight: bold;
+    color: #284664;
+}
+.exam-library .lesson-nav li a {
+    display: block;
+    padding: 10px 0 10px 40px;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: .25px;
+    line-height: 20px;
+    color: #9d9d9d;
+    position: relative;
+    transition: .2s;
+}
+.exam-library .lesson-nav li a:after {
+    content: '';
+    width: 100%;
+    transform: scale(0);
+    height: 3px;
+    position: absolute;
+    background-color: #284664;
+    bottom: 0;
+    left: 0;
+    transition: .25s;
+}
+.exam-library .all-test {
+    background: url(/themes/iot/images/icon-alltest.svg) left center no-repeat;
+    background-size: 25px;
+}
+.exam-library .academic-test {
+    background: url(https://ieltsonlinetests.com/themes/iot/images/icon-academic.svg) left center no-repeat;
+    background-size: 26px 20px;
+}
+.exam-library .general-test {
+    background: url(https://ieltsonlinetests.com/themes/iot/images/icon-usergroup.svg) left center no-repeat;
+    background-size: 26px 18px;
+}
+.exam-library .tab-content {
+    margin-top: 52px;
+}
+.tab-content>.active {
+    display: block;
+}
+.tab-content>.tab-pane {
+    display: none;
+}
+.exam-library .test-item {
+    margin-bottom: 40px;
+}
+.clearfix {
+    display: block;
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
