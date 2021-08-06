@@ -294,7 +294,7 @@
 }
 .sidebar {
     width :800px;
-    background-color:	#DCDCDC;
+    background-color:#00FFFF;
     height:100px;
     display:flex;
     flex-direction:row;
@@ -645,4 +645,29 @@ color: #faaa5a
     padding-left:11.5px;
     padding-left: 11.5px;
     margin-bottom: 53px;
+}
+.payment-method {
+    padding-bottom:74px;
+}
+.payment-caption {
+    font-size:32px;
+    font-weight:900;
+    font-style:normal;
+    line-height:1.72;
+    letter-spacing: .4px;
+    color: #284664;
+    margin: 0 0 40px;
+}
+.payment-method .card-list {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.payment-method-image {
+    width:16.6666%;
+}
+.payment-method-image img{
+    height:101px;
+width:145px;
+
 }
