@@ -490,108 +490,356 @@ position:relative;
     font-weight: bold;
     color:#284664
 }
-.uc-class .box {
-    border: 1px solid #d5d5d5;
-    border-radius:4px;
-    margin-bottom:  16px;
-    background-color: #fff;
-    position: relative;
-    width: 720px;
-}
-.time-box {
-    width:21.79%;
-    position: absolute;
-}
-.uc-class .time-box {
-    background-color: #ffeece;
-    padding: 42px 15px 15px;
-    
-    float:left;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    bottom:  0;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
-.time-box .live-lesson {
-    background-color: #faaa5a;
+ .lesson-type1 {
+    background-color:#284664;
     position:absolute;
-    font-size:16px;
-    font-weight: 800;
-    left: -1px;
-    right: 0;
-    top: -1px;
+    font-size:14px;
+    font-weight:600;
+    left:-2px;
+    top:-30px;
     height:30px;
-    line-height: 30px;
+    line-height:30px;
     border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     padding: 0 15px;
-    color: #fff;
+    width:100%;
+    max-width: 166px;
+    color:#fff;
     z-index:9;
-    text-align: center;
+    text-align:left;
+    padding-left:30px
 }
-.time-box .live-lesson__day {
-    font-family: "Montserrat",Helvetica,Arial,sans-serif;
-    font-size: 48px;
+  .item-writing1 {
+    border: 2px solid #284664;
+}
+ .class-item1 {
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    position:relative;
+    background:#fff
+}
+.joinin-button1 {
+    background-color: #284664;
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing: .4px;
+    text-align:center;
+    color: #fff;
+    display: inline-block;
+    height:40px;
+    line-height: 40px;
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    border-radius:4px;
+    width: 100%;
+}
+.joinin-button1 em {
+    font-style: normal;
+}
+.img-wrap .lesson-label1 {
+    position:absolute;
+    right:0;
+    bottom:0;
+    width:73px;
+    height:73px;
+    line-height:73px;
+    z-index:9
+}
+.img-wrap .lesson-label1::before {
+content:'';
+width:0;
+height:0;
+border-bottom: 73px solid #284664;
+border-left: 73px solid transparent;
+position:absolute;
+}
+.prev-classes h2 {
+    margin: 60px 0 26px;
+    font-size:  32px;
+    line-height: 1.41;
+    letter-spacing: 0.5px;
+    color: #284664;
     font-weight: bold;
-    line-height:1.25;
-    letter-spacing: .5px;
-    margin-bottom: 8px;
-    color:#284664;
 }
-.time-box .live-lesson__month {
-    font-family: "Montserrat",Helvetica,Arial,sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    line-height:1.2;
-    color:#284664;
-    text-transform: uppercase;
-    margin-bottom:16px;
+.prev-classes {
+    margin-bottom:10px;
 }
-.live-lesson__main-info {
-    width:77.19%;
-    padding-left: calc(21.79% + 30%);
-    padding-bottom: 20px;
+.prev-classes .row {
+    margin: 0 9px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+.prev-classes .lesson-practice {
+    padding: 0 9px;
+    margin-bottom: 50px;
+    width:50%;
+}
+.prev-classes .prc-item {
+  
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    height:100%;
+}
+.prev-classes .prc-item .-writing {
+    background-color: #FFEECE;
+}
+.prev-classes .prc-time {
+    padding: 47px 15px 0;
+    width:29.63%;
     float: left;
+    text-align: center;
     position: relative;
 }
-.live-lesson__lesson-category {
-    font-size: 22px;
-    margin: 16px 0;
-    font-weight: bold;
-    line-height:1.35;
-    letter-spacing: .3px;
-    color:#284664;
+.day {
+    font-family: "Montserrat", Helvetica,Arial,sans-serif;
+    font-size:44px;
+    font-weight:bold;
+    line-height: 1.25;
+    letter-spacing: 0.5px;
+    color :#284664;
 }
-.live-lesson__lesson-category {
-    color:#284664;
+.month {
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    color:#32b4c8;
+    text-transform: uppercase;
+    margin-bottom:10px;
 }
-.live-lesson__tutor-ava {
-    width:80px;
-    height:80px;
-    border-radius: 50%;
-    float:left;
-    margin-right: 18px;
+.time {
+    font-family: "Montserrat",Helvetica,Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    color: #284664;
+}
+.utc {
+    font-family: "Montserrat",Helvetica,Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    color: #284664;  
+}
+.prev-classes .prc-info {
+    width: 70.37%;
+    float:right;
+    background-color:#fff;
+    padding: 16px 25px 26px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height:100%;
+}
+.prev-classes h3 {
+    margin: 0 0 20px;
+}
+.prev-classes h3 a {
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    line-height: 1.35;
+    letter-spacing: 0.3px;
+    color:#284664;
     overflow:hidden;
-    border: 2px solid #d5d5d5
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
-.live-lesson__lesson-info {
+.prev-classes .tt-avatar {
+    width:66px;
+    height:66px;
+    float:left;
+    margin-right: 20px;
+    border-radius: 50%;
     overflow: hidden;
+    border: 1px solid #d5d5d5;
 }
-.live-lesson__lesson-info ul {
+.prev-classes .course-info {
+    padding-left:100px;
+}
+.prev-classes .tt-name {
+    font-size: 16px;
+    font-weight:900;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color:#32b4c8;
+    margin-bottom: 10px;
+}
+.prev-classes .tt-level {
+    font-size:14px;
+    line-height: 1.57px;
+    letter-spacing:0.2px;
+    color: #282828;
+    margin-bottom: 15px;
+}
+.prev-classes .course-btns {
+    display:flex;
+    padding-top :20px
+}
+.prev-classes .course-btns > a:first-child {
+    margin-right: 15px
+}
+.prev-classes .course-btns > a {
+width:50%;
+position:relative;
+}
+.bt-dt, .bt-rewatch {
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    color: #7a7a7a;
+    border: 1px solid #cccccc;
+    letter-spacing: 0.2px;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+}
+.bt-rewatch {
+    background-color: #284664;
+    border: none;
+    color: #fff;
+}
+.prev-classes .view-all {
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    width:100%;
+    display:block;
+    font-size:14px;
+    font-weight:bold;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #284664;
+    letter-spacing: .2px;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    max-width: 187px;
+    margin: 10px auto 35px;
+}
+.integrate-partner {
+    margin-bottom: 50px;
+}
+.slogan {
+    margin: 60px 0 26px;
+    font-size: 32px;
+    line-height: 1.41;
+    letter-spacing: 0.5px;
+    color: #284664;
+    font-weight: bold;
+}
+.enterprise {
+    
+    display: flex;
+    flex-direction:row;
+    padding-left:10px;
+    padding-right:10px;
+}
+.proportion1 {
+    width: 20%;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.proportion1 .jargon {
+    width: 180px;
+    height:150px;
+    border-radius: 10px;
+}
+.perspective {
+    margin-bottom: 50px;
+    
+}
+.perspective h2  {
+    margin: 60px 0 26px;
+    font-size: 32px;
+    line-height: 1.41;
+    letter-spacing: 0.5px;
+    color: #284664;
+    font-weight: bold;
+}
+.fraction {
+    width:1000px;
+    display:flex;
+    flex-direction: row;
+}
+.magnitude {
+    margin-left: 50px;
+    margin-right:50px;
+}
+.titles {
+    font-size: 32px;
+    line-height: 1.41;
+    letter-spacing: 0.5px;
+    color: #284664;
+    font-weight: bold;
+    margin-top:30px;
+}
+.magnitude .iframe {
+    border-radius:  5px;
+}
+.footer {
+    margin: 0;
+    position: relative;
+    background-color: #284664;
+    margin-top: 50px;
+    height:300px
+}
+.footer-content {
+    padding: 40px 0 20px 0;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.visually-hidden {
+    position: absolute!important;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    width: 1px;
+    height: 1px;
+    word-wrap: normal;
+}
+.footer-content .footer-menu {
     list-style: none;
     padding: 0;
 }
-.clearfix {
-    display: block;
-    clear: both;
+.footer-content .footer-menu li {
+    margin: 0 0 13px 0;
 }
-.live-lesson__tutor-name {
-    float:left;
-    margin-right:16px;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 1.5;
-    letter-spacing: .2px;
-    color: #282828;
+.footer-content .footer-menu li a {
+    font-weight: 800;
+    color: #7e90a2;
+}
+.convertible-select.currency- {
+    margin-top: 25px;
+}
+.footer .convertible-select {
+    width: 160px!important;
+    display: block;
+    margin-bottom: 10px;
+}
+.convertible-select:not(.input-group-btn), .bootstrap-select[class*=col-] {
+    float: none;
+    display: inline-block;
+    margin-left: 0;
+}
+.convertible-select>select {
+    position: absolute!important;
+    bottom: 0;
+    left: 50%;
+    display: block!important;
+    width: .5px!important;
+    height: 100%!important;
+    padding: 0!important;
+    opacity: 0!important;
+    border: none;
+}
+.dropup, .dropdown {
+    position: relative;
 }
